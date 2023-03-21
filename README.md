@@ -59,7 +59,7 @@ curl --location --request POST 'http://localhost:5000/api/file-import' \
 --form 'schema="public"'
 ```
 # Viewing tables
-Ppen the SQLite CLI and connect to the database using the command in your terminal:
+Open the SQLite CLI and connect to the database using the command in terminal:
 
 ```
 sqlite3 project.db
