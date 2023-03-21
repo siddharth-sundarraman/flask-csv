@@ -46,7 +46,7 @@ The API endpoint for uploading is
 
 The CSV will be saved in an sqlite database in the instance/project.db file
 
-Sample post request format:
+#Sample post request format:
 
 <img width="727" alt="postman" src="https://user-images.githubusercontent.com/111048443/226517431-06d0771f-9abb-4936-9a02-18d35a5cca33.png">
 
