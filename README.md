@@ -29,7 +29,7 @@ pip3 install -r requirements.txt
 
 # Running the Flask App
 
-```
+```python
 python3 run.py
 ```
 
@@ -58,5 +58,22 @@ curl --location --request POST 'http://localhost:5000/api/file-import' \
 --form 'create_usr_id="sid"' \
 --form 'schema="public"'
 ```
+# Viewing tables
+Ppen the SQLite CLI and connect to the database using the command in your terminal:
 
+```
+sqlite3 project.db
+```
 
+View tables in database:
+
+```
+sqlite> .tables
+output: table_name
+```
+
+View contents of table:
+
+```sql
+sqlite> SELECT * FROM table_name;
+```
